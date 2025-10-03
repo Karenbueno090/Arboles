@@ -14,7 +14,7 @@ PREICA2502B010080
 
 
 ## Integrantes
-Karen Dayana Bueno Cruz 
+Karen Dayana Bueno Cruz  
 Santiago Cano
 
 ## Objetivo del Proyecto
