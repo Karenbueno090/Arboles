@@ -49,3 +49,18 @@ class ArbolBinario {
             inOrden(raiz.der);
         }
     }
+    // Método para buscar un número
+    public boolean buscar(int valor) {
+        return buscarRec(raiz, valor);
+    }
+
+    private boolean buscarRec(Nodo raiz, int valor) {
+        if (raiz == null) {
+            return false;  // No encontrado
+        }
+        if (raiz.dato == valor) {
+            return true;   // Encontrado
+        }
+        return valor < raiz.dato ? buscarRec(raiz.izq, valor) : buscarRec(raiz.der, valor);
+    }
+}
