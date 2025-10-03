@@ -20,3 +20,19 @@ class ArbolBinario {
     public void insertar(int valor) {
         raiz = insertarRec(raiz, valor);
     }
+    private Nodo insertarRec(Nodo raiz, int valor) {
+        // Si el árbol está vacío, se crea el nodo nuevo
+        if (raiz == null) {
+            raiz = new Nodo(valor);
+            return raiz;
+        }
+
+        // Si el valor es menor se inserta en la izquierda
+        if (valor < raiz.dato) {
+            raiz.izq = insertarRec(raiz.izq, valor);
+        } else { // Si es mayor o igual, en la derecha
+            raiz.der = insertarRec(raiz.der, valor);
+        }
+
+        return raiz;
+    }
