@@ -36,3 +36,16 @@ class ArbolBinario {
 
         return raiz;
     }
+    // Método para mostrar el árbol en recorrido inorden
+    public void recorrerInOrden() {
+        inOrden(raiz);
+        System.out.println();
+    }
+
+    private void inOrden(Nodo raiz) {
+        if (raiz != null) {
+            inOrden(raiz.izq);
+            System.out.print(raiz.dato + " ");
+            inOrden(raiz.der);
+        }
+    }
