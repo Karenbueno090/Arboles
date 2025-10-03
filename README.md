@@ -37,11 +37,11 @@ El programa ofrece un menú en consola con las siguientes opciones:
 4.	Salir → Termina la ejecución
 
 ## Cómo se implementó
-•	Se definió la clase Nodo con:
+- Se definió la clase Nodo con:
   o	dato → valor numérico.
   o	izq y der → referencias a los hijos.
-•	Se creó la clase ArbolBinario que incluye:
+- Se creó la clase ArbolBinario que incluye:
   o	insertar() → para agregar elementos.
   o	recorrerInOrden() → para mostrar los elementos en orden ascendente.
   o	buscar() → para verificar si un número está en el árbol.
-•	Se desarrolló la clase Main con un menú interactivo en consola para probar todas las operaciones.
+- Se desarrolló la clase Main con un menú interactivo en consola para probar todas las operaciones.
