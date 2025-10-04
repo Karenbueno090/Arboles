@@ -85,3 +85,18 @@ public class Main {
                     valor = sc.nextInt();
                     arbol.insertar(valor);
                     break;
+                case 2:
+                    System.out.print("Recorrido inorden: ");
+                    arbol.recorrerInOrden();
+                    break;
+
+                case 3:
+                    System.out.print("Ingrese número a buscar: ");
+                    valor = sc.nextInt();
+                    if (arbol.buscar(valor)) {
+                        System.out.println("Número encontrado en el árbol.");
+                    } else {
+                        System.out.println("Número NO encontrado.");
+                    }
+                    break;
+
