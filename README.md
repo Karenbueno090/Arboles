@@ -56,3 +56,7 @@ https://github.com/Karenbueno090/Arboles.git
 Abrir entorno de ejecuciones (Intellij IDEA)
 
 ## Captura de pantalla del código
+
+<img width="2553" height="1310" alt="Captura de pantalla 2025-10-03 a la(s) 9 15 26 p m" src="https://github.com/user-attachments/assets/fb1fefba-0a46-43be-b533-b07a8798abf5" />
+
+<img width="2560" height="1310" alt="Captura de pantalla 2025-10-03 a la(s) 9 16 08 p m" src="https://github.com/user-attachments/assets/039a1e5f-2e41-4695-9bee-fa8f1ee85a2a" />
