@@ -49,9 +49,10 @@ El programa ofrece un menú en consola con las siguientes opciones:
 - Cómo ejecutar
 Requisitos: Java, Git y Intellij IDEA.
 
-Clonar Repositorio
+
+## Clonar Repositorio
 https://github.com/Karenbueno090/Arboles.git
 
 Abrir entorno de ejecuciones (Intellij IDEA)
 
-Captura de pantalla del código
+## Captura de pantalla del código
