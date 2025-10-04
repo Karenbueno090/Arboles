@@ -64,3 +64,24 @@ class ArbolBinario {
         return valor < raiz.dato ? buscarRec(raiz.izq, valor) : buscarRec(raiz.der, valor);
     }
 }
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        ArbolBinario arbol = new ArbolBinario();
+        int opcion, valor;
+
+        do {
+            System.out.println("Menú Árbol Binario:");
+            System.out.println("1. Insertar número");
+            System.out.println("2. Mostrar recorrido inorden");
+            System.out.println("3. Buscar un número");
+            System.out.println("4. Salir");
+            System.out.print("Seleccione una opción: ");
+            opcion = sc.nextInt();
+
+            switch (opcion) {
+                case 1:
+                    System.out.print("Ingrese número a insertar: ");
+                    valor = sc.nextInt();
+                    arbol.insertar(valor);
+                    break;
