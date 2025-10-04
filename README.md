@@ -59,3 +59,5 @@ Abrir entorno de ejecuciones (Intellij IDEA)
 
 <img width="1709" height="1296" alt="Captura de pantalla 2025-10-03 a la(s) 9 17 31 p m" src="https://github.com/user-attachments/assets/fcb01163-4aaa-4cae-a5e3-3f78cc8d7f9d" />
 <img width="1704" height="1301" alt="Captura de pantalla 2025-10-03 a la(s) 9 18 06 p m" src="https://github.com/user-attachments/assets/356a3723-d1d0-4a58-bb3f-85349ea567fe" />
+<img width="957" height="508" alt="1," src="https://github.com/user-attachments/assets/19a508af-34a0-46a7-953b-33d2b5a9f8d2" />
+<img width="959" height="506" alt="1," src="https://github.com/user-attachments/assets/e84ca0a6-f171-4d1e-9a34-1b3d708e6058" />
