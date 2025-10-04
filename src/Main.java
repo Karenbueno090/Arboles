@@ -99,4 +99,20 @@ public class Main {
                         System.out.println("Número NO encontrado.");
                     }
                     break;
+                case 4:
+                    System.out.println("Saliendo...");
+                    break;
+
+                default:
+                    System.out.println("Opción no válida, intente nuevamente.");
+            }
+            System.out.println();
+
+        } while (opcion != 4);
+
+        sc.close();
+    }
+}
+
+
 
